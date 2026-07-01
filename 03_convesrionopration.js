@@ -16,7 +16,9 @@
        //***********Operations*********//
 let value = 3
 let negValue = -value
-console.log(negValue);
-
+// console.log(negValue);
+let str1 ="hello"
+let str2 =" omi"
+let str3 = str1+
 
  

@@ -13,9 +13,21 @@ const jsuser ={
     isLoggedIn:false,
     lastLoginDays:["monday","saturday"]
 }
-console.log(jsuser.email);
-console.log(jsuser["email"]);
-console.log(jsuser["fullname"]);
-console.log(jsuser[mysym]);
+// console.log(jsuser.email);
+// console.log(jsuser["email"]);
+// console.log(jsuser["fullname"]);
+// console.log(jsuser[mysym]);
+
+jsuser.email = "omiy@.com"
+// Object.freeze(jsuser)
+jsuser.email = "omiichatgpt@.com"
+console.log(jsuser);
+
+jsuser.greeting = function(){
+    console.log("hello js users ");
+    
+}
+console.log(jsuser.greeting());
+
 
 

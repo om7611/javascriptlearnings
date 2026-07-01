@@ -14,3 +14,8 @@ const course = {
 const {courseinstrector} = course
 console.log(courseinstrector);
 
+
+// const navbar = ({company}) =>{ recat 
+
+// }
+// navbar(company = "omii")
